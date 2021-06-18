@@ -24,20 +24,22 @@ const Home = () => {
         Actions.setResume({
           info: {
             image,
-            name: "Rui Liu",
+            name: "Aleksandr Stryzhov",
             desc: "Full Stack Developer",
           },
           contacts: [
-            "Anmin Street, Longjing",
-            "Yanji, Jilin, 133000",
-            "China",
-            "+8617152928280",
-            "jingang0314@gmail.com",
+            "Korabelnay",
+            "Moscow, MOW 115162",
+            "Russia",
+            "+79202110950",
+            "aleksandrct.work@gmail.com",
           ],
-          hobbies: ["volleyball, tennis, football", "starcraft"],
+          hobbies: ["volleyball, tennis, football"],
           skills: [
             { item: "Javascript/ES6+", level: 5 },
             { item: "React.js", level: 5 },
+            { item: "Gatsby.js", level: 4 },
+            { item: "Next.js", level: 4 },
             { item: "Node.js/Express.js", level: 4 },
             { item: "Python/FastAPI", level: 4 },
             { item: "PHP/Laravel", level: 4 },
@@ -46,29 +48,26 @@ const Home = () => {
           ],
           langs: [
             { item: "English", level: 3 },
-            { item: "Chinese", level: 5 },
+            { item: "Russian", level: 5 },
           ],
           links: [
             {
-              link: "https://www.linkedin.com/in/ruiliu840128",
-              alias: "Linkedin",
-            },
-            {
-              link: "https://stackoverflow.com/users/11402934/topw3",
-              alias: "Stackoverflow",
+              link: "https://github.com/alex3458",
+              alias: "GitHub",
             },
           ],
           profile: [
-            "I'm a senior full-stack developer with 8 years of hands-on experience in web and desktop application development.",
+            "I am an independent Web Freelancer with 7+ years of experience developing, implementing and supporting websites for commercial and non-commercial clients.",
+            "Strong experience with multiple programming languages required for website, web application and database development. ",
             "I'm a big fan of JavaScript and Python. I excel in PHP based back-end development as well.",
-            "As a software engineer, I like to architect software and write a more effective, clean code. I'm constantly trying to take my software skills to the next level.",
+            "Enjoy working as a team member, excellent communication, and interpersonal skills, self-motivated and proactive. Quick learner, strong reasoning, and problem-solving skills.",
           ],
           work: [
             {
-              title: "Senior Full-stack Developer",
-              company: "Vasilkoff CY Ltd",
-              city: "Yanji, Jilin, China",
-              start: "Jan 2018",
+              title: "Senior MERN Stack Developer",
+              company: "ESOFT Development of IT projects",
+              city: "Moscow, Russia",
+              start: "Jan 2017",
               end: "Nov 2020",
               descs: [
                 "Worked as a senior full-stack developer and team lead. I was responsible to define and manage tasks, code reviews, issue management etc.",
@@ -77,35 +76,24 @@ const Home = () => {
               ],
             },
             {
-              title: "Senior Full-stack Developer",
-              company: "Longxin Corporation",
-              city: "Yanji, Jilin, China",
-              start: "Dec 2015",
-              end: "Jan 2018",
+              title: "Front-End JavaScript Developer",
+              company: "VKS-Internet LLC",
+              city: "Nadym, Russia",
+              start: "Dec 2012",
+              end: "Jan 2016",
               descs: [
                 "Worked as a front-end developer for the first 6 months, and as a full-stack developer later on. I participated in development of pinduoduo.com and alibaba.com though it's a small part.",
                 "Main stacks: React, Material UI, Node/Express, Django, Firebase",
               ],
             },
-            {
-              title: "Junior Front-end Developer",
-              company: "YbTop",
-              city: "Yanji, Jilin, China",
-              start: "Jun 2013",
-              end: "Oct 2015",
-              descs: [
-                "I started my software developer career here. I'm immersed in learning IT and hard-worked all the time. 6 months later, I participated in product development.",
-                "I developed sites of several companies(Letianmi, haoranjiazu, ...). I focused mainly on front-end development using bootstrap.",
-              ],
-            },
           ],
           education: [
             {
-              school: "Yanbian University of Science and Technology",
-              start: "Apr. 2008",
-              end: "May. 2012",
+              school: "Tula State University",
+              start: "Apr. 2005",
+              end: "May. 2007",
               degree: "Bachelor",
-              city: "Yanji, Jilin, China",
+              city: "Tula, Central Russia",
               subject: "Computer Science",
             },
           ],
@@ -148,7 +136,7 @@ const Home = () => {
             )}
             {resume.education && (
               <EducationHistory
-                title='Employment History'
+                title='Education History'
                 contents={resume.education}
               />
             )}
