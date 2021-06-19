@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [My Resume Here](https://aleksandr-resume.netlify.app/).
+[My Resume Here](https://aleksandr-resume.netlify.app/).
 
 ## Main purpose of this project
 
